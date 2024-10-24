@@ -6,7 +6,7 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 15:19:14 by btomlins          #+#    #+#             */
-/*   Updated: 2024/10/24 15:23:31 by btomlins         ###   ########.fr       */
+/*   Updated: 2024/10/24 16:17:43 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,5 +19,4 @@ int main(void)
     std::string *stringPTR = &string;
     std::string &stringREF = string;
 
-    std::cout << 
 }
