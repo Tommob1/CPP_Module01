@@ -6,7 +6,7 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 17:21:36 by btomlins          #+#    #+#             */
-/*   Updated: 2024/10/24 21:29:12 by btomlins         ###   ########.fr       */
+/*   Updated: 2024/10/24 21:32:31 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,6 @@ class HumanB
 
         void attack();
         void setWeapon(Weapon &weapon);
-}
+};
 
 #endif
