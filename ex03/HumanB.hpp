@@ -6,7 +6,7 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 17:21:36 by btomlins          #+#    #+#             */
-/*   Updated: 2024/10/24 21:25:10 by btomlins         ###   ########.fr       */
+/*   Updated: 2024/10/24 21:29:12 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,5 +23,11 @@ class HumanB
         std::string _name;
         Weapon *_weapon;
     public:
-        
+        HumanB(std::string name);
+        ~HumanB();
+
+        void attack();
+        void setWeapon(Weapon &weapon);
 }
+
+#endif
