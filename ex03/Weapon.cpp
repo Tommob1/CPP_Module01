@@ -6,7 +6,7 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 17:21:42 by btomlins          #+#    #+#             */
-/*   Updated: 2024/10/24 17:31:45 by btomlins         ###   ########.fr       */
+/*   Updated: 2024/10/24 21:23:03 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ Weapon::Weapon()
 {
 }
 
-Weapon::Weapon(stsd::string type)
+Weapon::Weapon(std::string type)
 {
     setType(type);
 }
