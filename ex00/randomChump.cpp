@@ -6,13 +6,14 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 14:30:23 by btomlins          #+#    #+#             */
-/*   Updated: 2024/10/24 14:32:44 by btomlins         ###   ########.fr       */
+/*   Updated: 2024/10/24 14:49:07 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.hpp"
 
-void randomChump( std::string name )
+void randomChump(std::string name)
 {
-    
+    Zombie temp(name);
+    temp.announce();
 }
