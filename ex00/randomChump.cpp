@@ -6,7 +6,13 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 14:30:23 by btomlins          #+#    #+#             */
-/*   Updated: 2024/10/24 14:30:30 by btomlins         ###   ########.fr       */
+/*   Updated: 2024/10/24 14:32:44 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "Zombie.hpp"
+
+void randomChump( std::string name )
+{
+    
+}
