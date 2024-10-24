@@ -6,7 +6,7 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 14:30:25 by btomlins          #+#    #+#             */
-/*   Updated: 2024/10/24 14:41:16 by btomlins         ###   ########.fr       */
+/*   Updated: 2024/10/24 14:50:22 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,15 +22,4 @@ Zombie::~Zombie()
 void Zombie::announce() const
 {
     std::cout << _name << ": Braiiiiiiinnnzzz..." << std::endl;
-}
-
-Zombie* newZombie(std::string name)
-{
-    return new Zombie(name);
-}
-
-void randomChump(std::string name)
-{
-    Zombie temp(name);
-    temp.announce();
 }
