@@ -6,13 +6,29 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 21:42:57 by btomlins          #+#    #+#             */
-/*   Updated: 2024/10/29 08:55:42 by btomlins         ###   ########.fr       */
+/*   Updated: 2024/10/29 09:02:00 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string.h>
 #include <iostream>
 #include <fstream>
+
+std::string replaceOccurrences(const std::string& content, const std::string& s1, const std::string& s2)
+{
+    std::string modifiedContent;
+    size_t pos;
+    size_t findPos;
+    pos = 0;
+
+    while (findPos = content.find(s1, pos) != std::string::npos)
+    {
+        modifiedContent += content.substr(pos, findPos - pos) + s2;
+        pos = findPos + s1.length();
+    }
+    modifiedContent += content.substr(pos);
+    return modifiedContent;
+}
 
 int main(int argc, char *argv[])
 {
