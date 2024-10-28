@@ -6,7 +6,7 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 21:42:57 by btomlins          #+#    #+#             */
-/*   Updated: 2024/10/29 08:49:01 by btomlins         ###   ########.fr       */
+/*   Updated: 2024/10/29 08:55:42 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 #include <iostream>
 #include <fstream>
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
     if (argc != 4)
     {
@@ -23,11 +23,16 @@ int main(int argc, char **argv)
     }
 
     std::string filename = argv[1];
-    std::string search = argv[2];
-    std::string replace = argv[3];
+    std::string s1 = argv[2];
+    std::string s2 = argv[3];
+
+    if (s1.empty())
+    {
+        std::cerr << "Error: The search string (s1) cannot be empty." << std::endl;
+        return (1);
+    }
 
     std::ifstream inputFile(filename);
-
     if (!inputFile)
     {
         std::cerr << "Error: Could not open file " << filename << std::endl;
