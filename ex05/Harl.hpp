@@ -6,8 +6,19 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/29 09:16:19 by btomlins          #+#    #+#             */
-/*   Updated: 2024/10/29 09:28:13 by btomlins         ###   ########.fr       */
+/*   Updated: 2024/10/29 09:38:32 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
+#include <string>
+#include <cstdlib>
+
+class Harl
+{
+    private:
+    
+    public:
+        Harl();
+        ~Harl();
+};
