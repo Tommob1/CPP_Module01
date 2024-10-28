@@ -6,11 +6,13 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 21:42:57 by btomlins          #+#    #+#             */
-/*   Updated: 2024/10/26 22:35:33 by btomlins         ###   ########.fr       */
+/*   Updated: 2024/10/28 15:48:26 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void    sed(char filename, string s1, string s2)
+#include <string.h>
+#include <iostream>
+#include <fstream>
 
 int main(int argc, char **argv)
 {
