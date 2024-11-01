@@ -6,7 +6,7 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/29 14:10:38 by btomlins          #+#    #+#             */
-/*   Updated: 2024/11/01 17:23:14 by btomlins         ###   ########.fr       */
+/*   Updated: 2024/11/01 17:27:41 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,13 +54,10 @@ void Harl::complain(const std::string& level)
     {
         case 0:
             debug();
-            [[fallthrough]];
         case 1:
             info();
-            [[fallthrough]];
         case 2:
             warning();
-            [[fallthrough]];
         case 3:
             error();
             break;
